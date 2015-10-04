@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+	  <% include ../partials/head %>
+  </head>
+  <title></title>
+  <body>
+	  <header>
+		 <% include ../partials/header %>
+	  </header>
+    <div class="login-form col-md-12">
+      <form role="form" class="col-md-4" action="/login" method="POST" enctype="application/x-www-form-urlencoded">
+        <div class="form-group col-md-12">
+        <label for="userName">UserName/Email</label> 
+          <input type="text" class="form-control pull-right width60" id="userName" name="username">
+         </div>
+        <div class="form-group col-md-12">
+         <label for="password"> Password </label>
+         <input type="password" id="password" class="form-control pull-right width60" name="password">
+        </div>
+        <div class="col-md-12">
+         <label id="forgot-pwd"> Forgot your password? Click <a href="#"> here </a> to reset it</label>
+         </div>
+        <div class="col-md-12 text-center">
+         <button type="submit" class="btn btn-primary width60 marginBottom5">Login</button>
+         </div>
+         <div class="col-md-12 text-center">
+         <a href="/register">
+          <button type="button" class="btn btn-default">Sign Up
+          </a>
+          </button>
+         </div>
+      </form>
+      </div>
+    <footer>
+     <% include ../partials/footer.ejs%>
+    </footer>
+  </body>
+  <% include ../partials/foot.ejs%>
+
+</html>

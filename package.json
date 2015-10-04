@@ -1,0 +1,39 @@
+{
+  "name": "vidiq",
+  "version": "0.0.0",
+  "description": "it is a cloe for vidiq",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Viraj Sinha",
+  "license": "MIT",
+  "dependencies": {
+    "underscore": "~1.8.3",
+    "redis": "~0.12.1",
+    "express": "^4.0.0",
+    "http": "0.0.0",
+    "compression": "~1.5.2",
+    "error-handler": "~1.0.0",
+    "method-override": "~2.3.5",
+    "morgan": "~1.6.1",
+    "express-session": "~1.11.3",
+    "body-parser": "~1.13.3",
+    "multer": "~1.0.3",
+    "fs": "0.0.2",
+    "mongoose": "~4.0.00",
+    "ejs-locals": "~1.0.2",
+    "passport-local": "~1.0.0",
+    "passport-local-mongoose": "~1.2.0",
+    "passport": "~0.3.0",
+    "mongoose-auto-increment": "~4.0.0",
+    "http-status-codes": "~1.0.5",
+    "cookie-parser": "~1.3.5",
+    "cookie-session": "~1.2.0",
+    "googleapis": "~2.1.3",
+    "google-auth-library": "~0.9.6",
+    "request": "~2.61.0",
+    "promise": "~7.0.4",
+    "youtube-api": "~1.1.0"
+  }
+}

@@ -1,0 +1,61 @@
+li a{
+    color:white;
+    text-decoration:none;
+}
+a:hover,a:visited,a:focus{
+    text-decoration:none;
+}
+.navigation-container{
+    float:right;
+    padding:1%;
+}
+.logo-container{
+    float:left;
+    text-align:center;
+    margin-top:2%;
+    padding:0;
+}
+.home-photo{
+    background:url(../img/backdrop.png) repeat scroll center center;
+    height: 700px;
+    background-size:cover;
+    position:absolute;
+}
+
+.navigation{
+    height:100%;
+}
+.navigation{
+    list-style-type:none;
+    height:100%;
+    margin:0;
+    padding:0;
+}
+.horizontal-dropdown{
+    display:inline-block;
+    vertical-align:middle;
+    padding:2.4%;
+    color:white;
+}
+.login-form,.register-form{
+    position:absolute;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-content:center;
+}
+.form-group{
+    display:inline-block;
+}
+form{
+    margin:auto;
+}
+.marginBottom5{
+    margin-bottom:5%;
+}
+.width60{
+    width:60%;
+}
+label{
+    line-height:2.5
+}

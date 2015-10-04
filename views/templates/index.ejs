@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+	  <% include ../partials/head %>
+  </head>
+  <title></title>
+  <body>
+	  <header>
+		 <% include ../partials/header %>
+	  </header>
+    <div class="backdrop home-photo col-md-12">
+    </div>
+    <main class="main-container col-md-12">
+      <div class="logo-container col-md-3">
+        <img src="../img/Square.png" class="col-md-6">
+      </div>
+      <div class="navigation-container col-md-7">
+        <ul class="navigation">
+          <li class="horizontal-dropdown"><a href="#">Solutions</a></li>
+          <li class="horizontal-dropdown"><a href="#">Services</a></li>
+          <li class="horizontal-dropdown"><a href="#">Apps</a></li>
+          <li class="horizontal-dropdown"><a href="#">Pricing</a></li>
+          <li class="horizontal-dropdown"><a href="#">Request Demo</a></li>
+          <li class="horizontal-dropdown"><a href="/login">Login</a></li>
+          <li class="horizontal-dropdown">
+           <a href="/register"> <button class="btn btn-primary" type="button">Sign Up</button></a>
+          </li>
+       </ul>
+      </div>
+     </main>
+     <% include ../partials/footer.ejs%>
+  </body>
+  <% include ../partials/foot.ejs%>
+
+</html>

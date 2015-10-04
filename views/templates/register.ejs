@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+	  <% include ../partials/head %>
+  </head>
+  <title></title>
+  <body>
+	  <header>
+		  <% include ../partials/header %>
+	  </header>
+    <div class="register-form col-md-12">
+      <form role="form" class="col-md-4" data-toggle="validator" Method="POST" action="/register" enctype="application/x-www-form-urlencoded">
+        <div class="form-group col-md-12">
+        <label for="userName">Email</label>
+        <input type="email" class="form-control pull-right width60" id="userName" placeholder="Enter Email" data-error="Bruh, that email address is invalid" required name="username" ng-model="email">
+        <div class="help-block with-errors"></div>
+        </div>
+        <div class="form-group col-md-12">
+          <label for="fullName">Full Name</label>
+          <input type="text" class="form-control pull-right width60" id="fullName" placeholder="Enter Full Name" required name="fullname">
+         </div>
+        <div class="form-group col-md-12">
+         <label for="password"> Password </label>
+         <input type="password" id="password" class="form-control pull-right width60" placeholder="Password" data-minlength="8" data-error="Minimum of 8 characters" required name="password">
+          <div class="help-block with-errors"></div>
+        </div>
+        <div class="form-group col-md-12">
+          <label for="confirmPassword">Confirm Password</label> 
+          <input type="password" class="form-control pull-right width60" id="confirmPassword" placeholder ="Confirm Password" data-match="#password" data-match-error="Whoops, these don't match" data-minlength="8" required>
+          <div class="help-block with-errors"></div>
+        </div>
+        <div class="col-md-12 form-group">
+         <h3> <label class="label label-danger"><%= message %></label></h3>
+        </div>
+        <div class="col-md-12 text-center">
+         <button type="submit" class="btn btn-primary width60 marginBottom5">Register</button>
+         </div>
+      </form>
+      </div>
+    <footer>
+     <% include ../partials/footer.ejs%>
+    </footer>
+  </body>
+  <% include ../partials/foot.ejs%>
+</html>
